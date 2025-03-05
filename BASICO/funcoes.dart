@@ -1,7 +1,8 @@
 void main() {
   boasVindas();
-  double calculo = simulador(10.5, 22.76);
+  double calculo = simulador(0.5, 40.0);
   print(calculo);
+  print(simulador2(10.2, 20.8));
 }
 
 void boasVindas() {
@@ -10,6 +11,11 @@ void boasVindas() {
 }
 
 double simulador(double a, b) {
+  double resultado = a * b;
+  return resultado;
+}
+
+double simulador2(double a, b) {
   double resultado = a + b;
   return resultado;
 }
